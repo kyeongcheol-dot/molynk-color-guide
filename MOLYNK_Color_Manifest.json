@@ -1,0 +1,218 @@
+{
+  "title": "MOLYNK Pop-up Color Guide",
+  "version": "v1",
+  "date": "2026-10-07",
+  "status": "Design working guide; physical output colors not yet approved",
+  "rgb_space": "sRGB IEC61966-2.1",
+  "cmyk": {
+    "profile": "Japan Color 2001 Coated",
+    "profile_sha256": "842bd0543ab1ddd8fe1dd154a3752b461a1589eb39b37a28dee764a319d7b333",
+    "intent": "relative colorimetric",
+    "black_point_compensation": true,
+    "engine": "Pillow / LittleCMS",
+    "rounding": "integer percentages",
+    "target_device": "reference only; not a vinyl printer ICC"
+  },
+  "pantone": "Suggested visual comparison candidates only. No certified nearest-match calculation, measured Delta E, approved spot colors, or official RGB equivalence claimed.",
+  "colors": [
+    {
+      "id": "CW01",
+      "name": "Fresh Cream",
+      "ko": "생크림 화이트",
+      "hex": "#FAF9F6",
+      "role": "생크림 몰딩·벽체·대형 케이크 바탕",
+      "pantone": null,
+      "url": null,
+      "status": "이번 가이드에서 추가한 기준색",
+      "rgb": [
+        250,
+        249,
+        246
+      ],
+      "cmyk_percent": [
+        2,
+        3,
+        4,
+        0
+      ],
+      "pantone_status": "실물 백색 소재 기준 / 별색 미지정"
+    },
+    {
+      "id": "PK01",
+      "name": "Milky Rose",
+      "ko": "메인 핑크",
+      "hex": "#E8A8B8",
+      "role": "패키지·주요 핑크 면",
+      "pantone": "494 C",
+      "url": "https://www.pantone.com/na/en-us/color-finder/494-c",
+      "status": "이번 가이드에 반영한 제안색",
+      "rgb": [
+        232,
+        168,
+        184
+      ],
+      "cmyk_percent": [
+        6,
+        44,
+        14,
+        0
+      ],
+      "pantone_status": "육안 대조용 근사 후보 / 측색 및 최종 승인 전"
+    },
+    {
+      "id": "MT01",
+      "name": "Mint Blue",
+      "ko": "민트 블루",
+      "hex": "#88BEBB",
+      "role": "체크바닥·웰컴매트의 민트 부분",
+      "pantone": "5503 C",
+      "url": "https://www.pantone.com/color-finder/5503-c",
+      "status": "기존 렌더의 마지막 색감 기준",
+      "rgb": [
+        136,
+        190,
+        187
+      ],
+      "cmyk_percent": [
+        50,
+        11,
+        29,
+        0
+      ],
+      "pantone_status": "육안 대조용 근사 후보 / 측색 및 최종 승인 전"
+    },
+    {
+      "id": "PK02",
+      "name": "Light Pink",
+      "ko": "라이트 핑크",
+      "hex": "#F7DFE5",
+      "role": "넓은 그래픽 배경·보조 면",
+      "pantone": "705 C",
+      "url": "https://www.pantone.com/color-finder/705-c",
+      "status": "이번 가이드에 반영한 제안색",
+      "rgb": [
+        247,
+        223,
+        229
+      ],
+      "cmyk_percent": [
+        2,
+        18,
+        5,
+        0
+      ],
+      "pantone_status": "육안 대조용 근사 후보 / 측색 및 최종 승인 전"
+    },
+    {
+      "id": "PK03",
+      "name": "Rose Accent",
+      "ko": "포인트 핑크",
+      "hex": "#DE5D83",
+      "role": "실물 리본·작은 강조 요소",
+      "pantone": "7423 C",
+      "url": "https://www.pantone.com/color-finder/7423-c",
+      "status": "이번 가이드에 반영한 제안색",
+      "rgb": [
+        222,
+        93,
+        131
+      ],
+      "cmyk_percent": [
+        7,
+        76,
+        24,
+        0
+      ],
+      "pantone_status": "육안 대조용 근사 후보 / 측색 및 최종 승인 전"
+    },
+    {
+      "id": "BG01",
+      "name": "Cream Beige",
+      "ko": "바닥 크림 베이지",
+      "hex": "#E7D2AF",
+      "role": "체크바닥·웰컴매트의 밝은 부분",
+      "pantone": "468 C",
+      "url": "https://www.pantone.com/color-finder/468-c",
+      "status": "기존 바닥 시안의 참고값을 유지",
+      "rgb": [
+        231,
+        210,
+        175
+      ],
+      "cmyk_percent": [
+        11,
+        20,
+        34,
+        0
+      ],
+      "pantone_status": "육안 대조용 근사 후보 / 측색 및 최종 승인 전"
+    }
+  ],
+  "assets": [
+    {
+      "file": "02_Entrance_Hero_Original.png",
+      "source": "molynk-shot06-subtle-mint-empty-v27.png",
+      "action": "unchanged copy",
+      "pixels": [
+        1550,
+        1015
+      ]
+    },
+    {
+      "file": "05_Color_Reference_Board_Original.png",
+      "source": "figma-pastel-palette-reference.png",
+      "action": "unchanged copy",
+      "pixels": [
+        1555,
+        1543
+      ]
+    },
+    {
+      "file": "04_Reference_Pink_Packaging.png",
+      "source": "05_Color_Reference_Board_Original.png",
+      "action": "extract embedded photo; no color correction",
+      "box": [
+        158,
+        120,
+        592,
+        771
+      ],
+      "pixels": [
+        434,
+        651
+      ]
+    },
+    {
+      "file": "03_Reference_Mint_Checker_Interior.png",
+      "source": "05_Color_Reference_Board_Original.png",
+      "action": "extract embedded photo; no color correction",
+      "box": [
+        656,
+        120,
+        1514,
+        704
+      ],
+      "pixels": [
+        858,
+        584
+      ]
+    },
+    {
+      "file": "06_Cream_Molding_Study.png",
+      "source": "molynk-cream-molding-both-seamless-v21.png",
+      "action": "unchanged copy",
+      "pixels": [
+        1983,
+        793
+      ]
+    }
+  ],
+  "palette_sheet": {
+    "file": "01_Color_Palette.png",
+    "pixels": [
+      3508,
+      2481
+    ],
+    "render_dpi": 300
+  }
+}
